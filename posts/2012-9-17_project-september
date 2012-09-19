@@ -1,6 +1,43 @@
 {% extends 'templates/post.html' %}
 {% block headline %}Project September{% endblock headline %}
-{% block datetime %}2012-9-17{% endblock datetime %}
+{% block datetime %}2012-9-18{% endblock datetime %}
 {% block post_body %}
+{% markdown %}
+Project September begins my long term project to build an autonomous quadcopter
+from scratch.
+
+This observer will utilize both parts from the [diydrones](http://diydrones.com/) Arducopter
+and a custom brain based on the [Raspberry Pi](http://www.raspberrypi.org) or some other
+architecture
+
+My goal is to build this from scratch, but may have to end up cribbing code from other sources.
+
+### Timeline
+
+#### Phase I
+
+* Build brain
+* Understand GPIO and other basic I/O
+* Interact with motors/electronics
+
+#### Phase II
+
+* Understand quadcopter construction
+* Understand basic quadcopter physics and aerodynamics
+
+#### Phase III
+
+* Put the brain and the quadcopter together
+* Give pathing instructions to do missions
+
+#### Phase IV
+
+* Add sonar/sensors to help quadcopter understand its environment
+
+#### Phase V
+
+* Create mission for `copter to autonomously patrol area and react to obstacles
+
+{% markdown %}
 
 {% endblock post_body %}
