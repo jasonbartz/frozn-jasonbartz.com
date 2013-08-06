@@ -1,0 +1,17 @@
+{% extends 'templates/post.html' %}
+{% block headline %}Some thoughts on my new employer{% endblock headline %}
+{% block datetime %}2013-8-5{% endblock datetime %}
+{% block post_body %}
+{% markdown %}
+There is plenty of trepidation among some employees of The Washington Post with our sale to Amazon.com founder Jeff Bezos. I am not one of these people.
+
+I admit that I have some misgivings about it, as all people do when the signature on their paycheck changes.  But for me, and the teams I have been on, we have already begun to construct an ethos of efficiency required to operate in a news organization with big ideas and a small checkbook.
+
+My team has changed significantly in the past two years I've been at the Post.  We've gone from 3 people, to 12 people to 22 people **(std. dev. of 3)**, and with that bump has come a large share of the responsibility.
+
+For the past year or so, we have been operating with a fairly ruthless efficiency that I believe embodies the spirit of our new benefactor. Our applications and software run with a minimum number of engineers required. The irony of using Amazon's Web Services is not lost on me. Through that service, we have found a way to serve massive numbers of traffic to our applications while keeping the number of servers we use to a minimum.
+
+We have created a culture of ``small teams, large impact`` that I hope will spread to the rest of the Post and maybe the community at large.
+
+{% markdown %}
+{% endblock post_body %}
